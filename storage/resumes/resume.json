@@ -114,6 +114,10 @@
         {
             "name": "Other",
             "keywords": ["SOLID Principle", "DRY Principle", "PHPUnit", "Xdebug", "Agile", "PHPStan"]
+        },
+        {
+            "name": "Cloud Technologies",
+            "keywords": ["AWS", "Laravel Cloud", "Microsoft Azure"]
         }
     ],
     "languages": [
