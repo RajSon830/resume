@@ -1,0 +1,163 @@
+{
+    "basics": {
+        "name": "Raj Sonawala",
+        "label": "Full Stack Developer",
+        "email": "rajsonawala2023@gmail.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXdH1nNGiKGoLG_jdXNoJpBX0tbqrhAINyxw&s",
+        "phone": "+49 176 404 72326",
+        "url": "https://www.linkedin.com/in/raj-sonawala-413601184/",
+        "website": "rajsonawala.com",
+        "location": {
+            "address": "Heidenheimer Straße 82",
+            "city": "Ulm",
+            "region": "Baden-Württemberg",
+            "countryCode": "Germany"
+        },
+        "summary": "Full Stack Developer with extensive experience building scalable applications using Angular, Laravel, Spring Boot, and PHP. Strong background in both frontend and backend development, REST APIs, ETL processes, and cloud technologies."
+    },
+    "work": [
+        {
+            "name": "Bosch Rexroth AG",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU7X24KIh54h1egjpAAl8yXICw8Tr4mUu78Q&s",
+            "position": "Full Stack Developer (Working Student)",
+            "location": "Ulm, Germany",
+            "startDate": "2024-05",
+            "endDate": null,
+            "summary": "Designed and developed scalable backend systems using PHP 8 MVC and Laravel 11, integrated with MySQL databases managing over 7 million records. Built responsive, user-friendly interfaces with Angular and Angular Material, delivering seamless user experiences. Developed full-stack applications to streamline data workflows for the sales department.",
+            "highlights": [
+                "Built backend systems with PHP 8 MVC and Laravel 11.",
+                "Managed large-scale data (7M+ records) in MySQL.",
+                "Created responsive interfaces with Angular and Angular Material.",
+                "Streamlined data workflows for the sales department."
+            ]
+        },
+        {
+            "name": "Bosch Rexroth AG",
+            "position": "Full Stack Developer (Intern)",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU7X24KIh54h1egjpAAl8yXICw8Tr4mUu78Q&s",
+            "location": "Ulm, Germany",
+            "startDate": "2023-08",
+            "endDate": "2024-04",
+            "summary": "Created and documented REST APIs using Swagger UI. Resolved critical bugs and maintained legacy systems built with JavaScript, HTML, CSS, and PHP. Developed an ETL process using KNIME to automate data extraction from SAP to MySQL.",
+            "highlights": [
+                "Created/documented REST APIs with Swagger UI.",
+                "Maintained legacy PHP/JS systems.",
+                "Automated ETL from SAP to MySQL using KNIME."
+            ]
+        },
+        {
+            "name": "Uni-app.com",
+            "position": "Data Analyst (Working Student)",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYTh0kGQ5lxmJIaogJVJeP398yP3_neCpEQw&s",
+            "location": "Frankfurt am Main, Germany",
+            "startDate": "2022-05",
+            "endDate": "2023-03",
+            "summary": "Automated extraction of HTML data from thousands of partner websites using Python, BeautifulSoup, and Selenium. Structured data into CSVs and injected into OpenSearch for real-time analytics. Maintained OpenSearch operations ensuring 99% uptime.",
+            "highlights": [
+                "Automated data extraction using Python, BeautifulSoup, Selenium.",
+                "Processed data into CSVs and OpenSearch.",
+                "Ensured 99% uptime for search analytics."
+            ]
+        },
+        {
+            "name": "Udrus (NEOM GmbH)",
+            "position": "Full Stack Developer (Working Student)",
+            "logo": "https://cdn.startbase.com/images/0f725d0b26ce3f7a72ab99f0b15faedb/cd945a5a4f5378c/",
+            "location": "Frankfurt am Main, Germany",
+            "startDate": "2021-08",
+            "endDate": "2022-03",
+            "summary": "Rebuilt a monolithic WordPress site into a scalable Angular 17 and Spring Boot 11 application. Implemented REST APIs and integrated Google/Facebook login. Designed search with pagination, reducing search time by 40%.",
+            "highlights": [
+                "Migrated from WordPress to Angular 17 & Spring Boot 11.",
+                "Integrated REST APIs & OAuth (Google/Facebook).",
+                "Reduced search time by 40% with pagination."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Frankfurt University of Applied Science",
+            "area": "High Integrity Systems (Computer Science)",
+            "studyType": "Master's",
+            "startDate": "2020-08",
+            "endDate": null,
+            "score": "Grade: 2.2",
+            "courses": ["Database Management Systems", "Artificial Intelligence", "Data Mining"]
+        },
+        {
+            "institution": "Sarvajanik College of Engineering and Technology",
+            "area": "Information Technology",
+            "studyType": "Bachelor's",
+            "startDate": "2015-01",
+            "endDate": "2019-09",
+            "score": "Grade: 2.1",
+            "courses": ["Java Programming", "Object Oriented Programming", "Data Structures and Algorithms"]
+        }
+    ],
+    "skills": [
+        {
+            "name": "Programming Languages",
+            "keywords": ["PHP 8", "Java 11/17", "TypeScript", "JavaScript", "CSS", "HTML", "SQL", "Python", "SCSS", "XML", "JSON"]
+        },
+        {
+            "name": "Frameworks & Libraries",
+            "keywords": ["Spring Boot 3", "Laravel 11", "Angular", "React"]
+        },
+        {
+            "name": "Databases",
+            "keywords": ["MySQL", "MSSQL", "Elastic Search", "OpenSearch", "MongoDB", "Redis"]
+        },
+        {
+            "name": "Dev Tools & IDEs",
+            "keywords": ["VS Code", "IntelliJ IDEA", "PyCharm", "Git", "GitHub", "GitLab", "Docker", "Bitbucket"]
+        },
+        {
+            "name": "Other",
+            "keywords": ["SOLID Principle", "DRY Principle", "PHPUnit", "Xdebug", "Agile", "PHPStan"]
+        }
+    ],
+    "languages": [
+        { "language": "English", "fluency": "Fluent" },
+        { "language": "German", "fluency": "Intermediate (B2)" }
+    ],
+    "projects": [
+        {
+            "name": "After Market Intelligence Tool",
+            "description": "Full-stack dynamic web application for managing millions of product records. Used Angular 11 for front-end and Laravel 11 for back-end, optimizing relational search via REST APIs.",
+            "highlights": [
+                "Reduced search query time to milliseconds with optimized APIs.",
+                "Built search features that process millions of records instantly.",
+                "Implemented RBAC to secure user-specific data access.",
+                "Developed intuitive UI with Angular, Bootstrap, Material UI."
+            ],
+            "keywords": ["PHP 8", "MVC", "Laravel 11", "KNIME", "MySQL", "Angular 11", "Swagger UI", "Redis", "Bootstrap"]
+        }
+    ],
+    "certificates": [
+        {
+            "name": "APIs in PHP: from Basic to Advance",
+            "issuer": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-71d723ad-dba2-437a-b38b-f5b2452d69a9/"
+        },
+        {
+            "name": "Complete Angular Developer Bootcamp",
+            "issuer": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-138826aa-f65a-4ace-b46b-c2a368065021/"
+        },
+        {
+            "name": "Object Oriented PHP & MVC",
+            "issuer": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-3c916e0f-c240-44d4-b7c6-4a124209fee9/"
+        },
+        {
+            "name": "SQL - MySQL for Data Analytics",
+            "issuer": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-f1f577ed-d192-4eca-b314-1ac0c26b72eb/"
+        },
+        {
+            "name": "Elasticsearch 8 and the Elastic Stack",
+            "issuer": "Udemy",
+            "url": "https://www.udemy.com/certificate/UC-e675e884-859a-4525-bd30-2d85eb8a1366/"
+        }
+    ]
+}
