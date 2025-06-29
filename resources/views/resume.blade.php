@@ -279,23 +279,38 @@
             <div class="card-header"><h4>Projects</h4></div>
             <div class="card-body">
                 @foreach($projects as $project)
-                    <div>
+                    <div class="mb-4">
                         <h5>{{ $project['name'] ?? '' }}</h5>
-                        <p class="mb-1">{{ $project['description'] ?? '' }}</p>
-                        @if(!empty($project['highlights']))
+                        @if(!empty($project['role']))
+                            <p><strong>Role:</strong> {{ $project['role'] }}</p>
+                        @endif
+                        <p class="mb-2">{{ $project['description'] ?? '' }}</p>
+
+                        @if(!empty($project['key_contributions']))
+                            <h6>Key Contributions:</h6>
+                            <ul>
+                                @foreach($project['key_contributions'] as $contribution)
+                                    <li>{{ $contribution }}</li>
+                                @endforeach
+                            </ul>
+                        @elseif(!empty($project['highlights']))
                             <ul>
                                 @foreach($project['highlights'] as $highlight)
                                     <li>{{ $highlight }}</li>
                                 @endforeach
                             </ul>
                         @endif
-                        @if(!empty($project['keywords']))
-                            <p class="mb-1"><strong>Technologies:</strong> {{ implode(', ', $project['keywords']) }}</p>
+
+                        @if(!empty($project['technologies_used']))
+                            <p><strong>Technologies Used:</strong> {{ implode(', ', $project['technologies_used']) }}</p>
+                        @elseif(!empty($project['keywords']))
+                            <p><strong>Technologies:</strong> {{ implode(', ', $project['keywords']) }}</p>
                         @endif
                     </div>
                 @endforeach
             </div>
         </div>
+
     @endif
 
     <!-- Certificates Section -->

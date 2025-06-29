@@ -126,16 +126,48 @@
     ],
     "projects": [
         {
-            "name": "After Market Intelligence Tool",
-            "description": "Full-stack dynamic web application for managing millions of product records. Used Angular 11 for front-end and Laravel 11 for back-end, optimizing relational search via REST APIs.",
-            "highlights": [
-                "Reduced search query time to milliseconds with optimized APIs.",
-                "Built search features that process millions of records instantly.",
-                "Implemented RBAC to secure user-specific data access.",
-                "Developed intuitive UI with Angular, Bootstrap, Material UI."
+            "name": "After Market Intelligence Tool (Full – Stack Dynamic Web Application)",
+            "role": "Full Stack Developer",
+            "technologies_used": [
+                "PHP 8",
+                "MVC",
+                "Laravel 11",
+                "KNIME Analytics Tool",
+                "MySQL",
+                "Typescript",
+                "HTML",
+                "SCSS",
+                "Bootstrap 5",
+                "Angular 11",
+                "Angular Material UI",
+                "Swagger UI",
+                "Redis"
             ],
-            "keywords": ["PHP 8", "MVC", "Laravel 11", "KNIME", "MySQL", "Angular 11", "Swagger UI", "Redis", "Bootstrap"]
+            "description": "Developed a scalable and high-performance data management and search platform for managing millions of product-related records. The platform leveraged Angular 11 for the front-end and Laravel 11 for the back end, optimizing the search process for relational data using REST APIs.",
+            "key_contributions": [
+                "Reduced search query processing time to milliseconds, improving the user experience and enabling real-time data access, even with large-scale data sets.",
+                "Built two powerful search features that allowed users to instantly search through millions of data records in milliseconds using highly optimized REST APIs, leveraging indexing and table joins on the backend.",
+                "Developed fast, secure, and well-documented REST APIs using Swagger UI, enabling real-time, scalable searching and data retrieval, reducing search times by 90% compared to previous systems.",
+                "Implemented Role-Based Access Control (RBAC) to manage user permissions and access levels, ensuring users only see data relevant to their roles.",
+                "Designed and implemented a user-friendly interface using Angular 11, Bootstrap 5, and Angular Material UI for smooth navigation and interaction with millions of records."
+            ],
+            "keywords": [
+                "PHP 8",
+                "MVC",
+                "Laravel 11",
+                "KNIME Analytics Tool",
+                "MySQL",
+                "Typescript",
+                "HTML",
+                "SCSS",
+                "Bootstrap 5",
+                "Angular 11",
+                "Angular Material UI",
+                "Swagger UI",
+                "Redis"
+            ]
         }
+
     ],
     "certificates": [
         {
